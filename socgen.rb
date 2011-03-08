@@ -2,9 +2,9 @@ require 'sinatra'
 require 'haml'
 
 
-
 get '/' do
-  haml :index
+  #haml :index
+  Hellow from Sinatra on Heroku
 end
 
 

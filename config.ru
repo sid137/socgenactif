@@ -1,2 +1,2 @@
-require './socgen.rb'
+require './socgen'
 run Sinatra::Application
