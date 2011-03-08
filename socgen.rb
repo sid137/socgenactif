@@ -3,8 +3,7 @@ require 'haml'
 
 
 get '/' do
-  #haml :index
-  "Hellow from Sinatra on Heroku"
+  haml :index
 end
 
 
