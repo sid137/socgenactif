@@ -5,7 +5,7 @@ require 'haml'
 
 get '/' do
   #haml :index
-  Hellow from Sinatra on Heroku
+  "Hellow from Sinatra on Heroku"
 end
 
 
