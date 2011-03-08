@@ -1,0 +1,44 @@
+# Affectation des paramètres obligatoires
+#
+merchant_id: "014213245611111"
+merchant_country: fr
+amount: 100
+currency_code: 978
+
+# Initialisation du chemin du fichier pathfile (à modifier)
+pathfile: plugin/param/pathfile
+
+# Generate this on my side
+transaction_id: "123456"
+
+# Dynamic parameters - Explained in the Data Dictionary
+normal_return_url: http://sid137.dyndns.org/call_response
+cancel_return_url: http://sid137.dyndns.org/call_response
+automatic_response_url: http://sid137.dyndns.org/call_autoresponse
+language: fr
+payment_means: CB,2,VISA,2,MASTERCARD,2
+header_flag: "no"
+capture_day:
+bgcolor:
+block_align:
+block_order:
+textcolor:
+receipt_complement:
+caddie: mon_caddie
+customer_id:
+customer_email:
+customer_ip_address:
+data:
+return_context:
+target:
+order_id:
+
+# These values are only usable in pre-production mode
+normal_return_logo:
+cancel_return_logo:
+submit_logo:
+logo_id:
+logo_id2:
+advert:
+background_id:
+template_file:
